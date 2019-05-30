@@ -30,7 +30,13 @@ def get_api_data(req_url):
 def getvm():
     resp = get_api_data(f'{api_url}/vcenter/vm') # URL, lookup using https://VCSA/apiexplorer/
     j = resp.json()
-    print(f'VMs: {j} [value]')
+    data = json.dumps(j, indent=4)
+    print(data)
+    with open("vms.json", "w") as write_file:
+        json.dump(j, write_file)
+    
+    #datastore = 'VMs: {j} [VM]'
+    #print(datastore['VMs']['VM'])
 
 def main():
     getvm()
