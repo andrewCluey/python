@@ -1,0 +1,91 @@
+VMs: {
+    'value': [{
+            'memory_size_MiB': 16384,
+            'vm': 'vm-1009',
+            'name': 'GPS-BL-7793(TEC)',
+            'power_state': 'POWERED_ON',
+            'cpu_count': 4
+        },
+        { 'memory_size_MiB': 1024, 'vm': 'vm-10744', 'name': 'GPS-BL-RM-NAGIOS', 'power_state': 'POWERED_ON', 'cpu_count': 1 }, { 'memory_size_MiB': 8192, 'vm': 'vm-10921', 'name': 'GPS-BL-NETMON', 'power_state': 'POWERED_ON', 'cpu_count': 4 }, { 'memory_size_MiB': 8192, 'vm': 'vm-134', 'name': 'TEST-VM-02', 'power_state': 'POWERED_OFF', 'cpu_count': 2 }, { 'memory_size_MiB': 8192, 'vm': 'vm-13612', 'name': 'GPS-BL-NETMON-2', 'power_state': 'POWERED_ON', 'cpu_count': 4 }, { 'memory_size_MiB': 16384, 'vm': 'vm-142', 'name': 'GPS-BL-4049', 'power_state': 'POWERED_ON', 'cpu_count': 6 }, { 'memory_size_MiB': 8192, 'vm': 'vm-1426', 'name': 'GPS-BL-APDEUM01', 'power_state': 'POWERED_OFF', 'cpu_count': 2 }, { 'memory_size_MiB': 16384, 'vm': 'vm-143', 'name': 'GPS-BL-4053', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 16384, 'vm': 'vm-144', 'name': 'GPS-BL-9094', 'power_state': 'POWERED_ON', 'cpu_count': 4 }, {
+            'memory_size_MiB': 8192,
+            'vm': 'vm-145',
+            'name': 'GPS-BL-4047',
+            'power_state': 'POWERED_ON',
+            'cpu_count': 2
+        },
+        {
+            'memory_size_MiB': 16384,
+            'vm': 'vm-146',
+            'name': 'GPS-BL-7792(Syslog)',
+            'power_state': 'POWERED_ON',
+            'cpu_count': 8
+        },
+        {
+            'memory_size_MiB': 4096,
+            'vm': 'vm-147',
+            'name': 'GPS-BL-RM-AD',
+            'power_state': 'POWERED_ON',
+            'cpu_count': 2
+        },
+        {
+            'memory_size_MiB': 34816,
+            'vm': 'vm-150',
+            'name': 'GPS-BL-7794(SQL-MONITOR)',
+            'power_state': 'POWERED_ON',
+            'cpu_count': 8
+        }, { 'memory_size_MiB': 92160, 'vm': 'vm-152', 'name': 'GPS-BL-9096', 'power_state': 'POWERED_ON', 'cpu_count': 12 }, { 'memory_size_MiB': 32768, 'vm': 'vm-153', 'name': 'GPS-BL-4041', 'power_state': 'POWERED_ON', 'cpu_count': 8 }, { 'memory_size_MiB': 43008, 'vm': 'vm-154', 'name': 'GPS-BL-4144', 'power_state': 'POWERED_ON', 'cpu_count': 8 }, { 'memory_size_MiB': 2048, 'vm': 'vm-15477', 'name': 'vmware-io-analyzer', 'power_state': 'POWERED_ON', 'cpu_count': 1 }, { 'memory_size_MiB': 2048, 'vm': 'vm-15479', 'name': 'IOanalyser-worker-04', 'power_state': 'POWERED_OFF', 'cpu_count': 1 }, { 'memory_size_MiB': 43008, 'vm': 'vm-155', 'name': 'GPS-BL-4044', 'power_state': 'POWERED_ON', 'cpu_count': 12 }, { 'memory_size_MiB': 8192, 'vm': 'vm-15552', 'name': 'HOSTED-TEST02', 'power_state': 'POWERED_ON', 'cpu_count': 4 }, { 'memory_size_MiB': 4096, 'vm': 'vm-15553', 'name': 'HOSTED-TEST03', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 4096, 'vm': 'vm-15554', 'name': 'HOSTED-TEST04', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 4096, 'vm': 'vm-15626', 'name': 'GPS-BL-4148', 'power_state': 'POWERED_OFF', 'cpu_count': 8 }, { 'memory_size_MiB': 65536, 'vm': 'vm-15628', 'name': 'GPS-BL-4248_old', 'power_state': 'POWERED_ON', 'cpu_count': 8 }, { 'memory_size_MiB': 10240, 'vm': 'vm-15635', 'name': 'GPS-BLH-VCSA01', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 16384, 'vm': 'vm-15636', 'name': 'GPS-BLH-PEPSANCTIONS', 'power_state': 'POWERED_ON', 'cpu_count': 8 }, { 'memory_size_MiB': 16384, 'vm': 'vm-15640', 'name': 'GPS-BL-AB-FFREES-APP', 'power_state': 'POWERED_ON', 'cpu_count': 4 }, { 'memory_size_MiB': 16384, 'vm': 'vm-15641', 'name': 'GPS-BL-AB-FFREES-DB', 'power_state': 'POWERED_ON', 'cpu_count': 4 }, { 'memory_size_MiB': 4096, 'vm': 'vm-15642', 'name': 'GPS-BLH-WSUS01', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 32768, 'vm': 'vm-15650', 'name': 'GPS-BLH-JIRA', 'power_state': 'POWERED_ON', 'cpu_count': 6 }, { 'memory_size_MiB': 8192, 'vm': 'vm-15651', 'name': 'GPS-BLH-JUMP', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 8192, 'vm': 'vm-15652', 'name': 'HostingWebserver-5048', 'power_state': 'POWERED_ON', 'cpu_count': 4 }, { 'memory_size_MiB': 8192, 'vm': 'vm-15653', 'name': 'GPS-BLH-MGAD01', 'power_state': 'POWERED_ON', 'cpu_count': 4 }, { 'memory_size_MiB': 4096, 'vm': 'vm-15654', 'name': 'FLEX-NAGIOS', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 4096, 'vm': 'vm-15656', 'name': 'GPS-BL-4448', 'power_state': 'POWERED_OFF', 'cpu_count': 8 }, { 'memory_size_MiB': 16384, 'vm': 'vm-15916', 'name': 'BLH-VDEP-WEB', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 16384, 'vm': 'vm-15917', 'name': 'BLH-MODULR-WEB', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 16384, 'vm': 'vm-16613', 'name': 'GPS-BL-PROD-VDEP-WEB', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 16384, 'vm': 'vm-16614', 'name': 'GPS-BL-PROD-MODULR-WEB', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 49152, 'vm': 'vm-17434', 'name': 'GPS-StrongHold-APP', 'power_state': 'POWERED_ON', 'cpu_count': 8 }, { 'memory_size_MiB': 1024, 'vm': 'vm-17498', 'name': 'Win2012R2TEMPLATE', 'power_state': 'POWERED_OFF', 'cpu_count': 1 }, { 'memory_size_MiB': 16384, 'vm': 'vm-17584', 'name': 'GPS-BLH-AB-WIRECARD-APP', 'power_state': 'POWERED_ON', 'cpu_count': 4 }, { 'memory_size_MiB': 16384, 'vm': 'vm-17585', 'name': 'GPS-BLH-AB-WIRECARD-DB', 'power_state': 'POWERED_ON', 'cpu_count': 4 }, { 'memory_size_MiB': 16384, 'vm': 'vm-17586', 'name': 'GPS-BL-VROPS-01', 'power_state': 'POWERED_ON', 'cpu_count': 4 }, { 'memory_size_MiB': 65536, 'vm': 'vm-17587', 'name': 'GPS-StrongHold-DB', 'power_state': 'POWERED_ON', 'cpu_count': 4 }, { 'memory_size_MiB': 8192, 'vm': 'vm-176', 'name': 'GPS-BL-7237(AD)', 'power_state': 'POWERED_ON', 'cpu_count': 4 }, { 'memory_size_MiB': 8192, 'vm': 'vm-17676', 'name': 'GPS-BL-CLR-Web', 'power_state': 'POWERED_ON', 'cpu_count': 4 }, { 'memory_size_MiB': 4096, 'vm': 'vm-17677', 'name': 'GPS-BL-CLRMQ-01', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 4096, 'vm': 'vm-17678', 'name': 'GPS-BL-CLRMQ-02', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 4096, 'vm': 'vm-17679', 'name': 'GPS-BL-CLRMQ-03', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 8192, 'vm': 'vm-17680', 'name': 'GPS-BL-ELK1', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 16384, 'vm': 'vm-179', 'name': 'GPS-BL-4052', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 92160, 'vm': 'vm-180', 'name': 'GPS-BL-4040', 'power_state': 'POWERED_ON', 'cpu_count': 12 }, { 'memory_size_MiB': 8192, 'vm': 'vm-181', 'name': 'GPS-BL-SFTP', 'power_state': 'POWERED_ON', 'cpu_count': 4 }, { 'memory_size_MiB': 16384, 'vm': 'vm-182', 'name': 'GPS-BL-4048', 'power_state': 'POWERED_ON', 'cpu_count': 8 }, { 'memory_size_MiB': 225280, 'vm': 'vm-184', 'name': 'GPS-BL-4246', 'power_state': 'POWERED_ON', 'cpu_count': 12 }, { 'memory_size_MiB': 43008, 'vm': 'vm-18455', 'name': 'GPS-Exchange', 'power_state': 'POWERED_ON', 'cpu_count': 12 }, { 'memory_size_MiB': 225280, 'vm': 'vm-185', 'name': 'GPS-BL-4346', 'power_state': 'POWERED_ON', 'cpu_count': 12 }, { 'memory_size_MiB': 32768, 'vm': 'vm-186', 'name': 'GPS-BL-4042', 'power_state': 'POWERED_ON', 'cpu_count': 8 }, { 'memory_size_MiB': 6144, 'vm': 'vm-188', 'name': 'IBM-SC', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 4096, 'vm': 'vm-18827', 'name': 'GPS-BL-DNS-01', 'power_state': 'POWERED_OFF', 'cpu_count': 4 }, {
+            'memory_size_MiB': 6144,
+            'vm': 'vm-194',
+            'name': 'GPS-BL-PS-01',
+            'power_state': 'POWERED_OFF',
+            'cpu_count': 2
+        },
+        {
+            'memory_size_MiB': 2048,
+            'vm': 'vm-19975',
+            'name': 'Test-Linux',
+            'power_state': 'POWERED_ON',
+            'cpu_count': 1
+        }, { 'memory_size_MiB': 10240, 'vm': 'vm-20462', 'name': 'dev-vcsa', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 6144, 'vm': 'vm-20463', 'name': 'GPS-VRO-01', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 24576, 'vm': 'vm-20538', 'name': 'GPS-BL-VCSA-01', 'power_state': 'POWERED_ON', 'cpu_count': 8 }, { 'memory_size_MiB': 8192, 'vm': 'vm-20734', 'name': 'GPS-BL-VRLI-01', 'power_state': 'POWERED_ON', 'cpu_count': 4 }, { 'memory_size_MiB': 8192, 'vm': 'vm-211', 'name': 'GPS-BL-SYSLOG-NG', 'power_state': 'POWERED_ON', 'cpu_count': 8 }, { 'memory_size_MiB': 8192, 'vm': 'vm-212', 'name': 'GPS-BL-7790(WSUS)', 'power_state': 'POWERED_ON', 'cpu_count': 4 }, { 'memory_size_MiB': 225280, 'vm': 'vm-218', 'name': 'GPS-BL-4146', 'power_state': 'POWERED_ON', 'cpu_count': 12 }, { 'memory_size_MiB': 8192, 'vm': 'vm-21876', 'name': 'GPS-BL-XCA-03', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 8192, 'vm': 'vm-21877', 'name': 'GPS-BL-SKL-02', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 15252, 'vm': 'vm-219', 'name': 'GPS-BL-ALEXIS', 'power_state': 'POWERED_ON', 'cpu_count': 16 }, { 'memory_size_MiB': 2048, 'vm': 'vm-220', 'name': 'TMPL-WIN2012', 'power_state': 'POWERED_OFF', 'cpu_count': 1 }, { 'memory_size_MiB': 8192, 'vm': 'vm-222', 'name': 'GPS-BL-Nagios', 'power_state': 'POWERED_ON', 'cpu_count': 4 }, { 'memory_size_MiB': 8192, 'vm': 'vm-223', 'name': 'GPS-BL-7238 (AD)', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 4096, 'vm': 'vm-22497', 'name': 'Win-net-test', 'power_state': 'POWERED_OFF', 'cpu_count': 1 }, { 'memory_size_MiB': 8192, 'vm': 'vm-22561', 'name': 'GPS-BL-PV-01', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 8192, 'vm': 'vm-22562', 'name': 'GPS-BL-PV-02', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 8192, 'vm': 'vm-22622', 'name': 'GPS-BL-PS-02', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 16384, 'vm': 'vm-22837', 'name': 'GPS-BL-4043', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 8192, 'vm': 'vm-22892', 'name': 'GPS-BL-MASTERCOM', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 8192, 'vm': 'vm-22893', 'name': 'GPS-BL-PVWEB-01', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 8192, 'vm': 'vm-22894', 'name': 'GPS-BL-PVWEB-02', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 8192, 'vm': 'vm-22949', 'name': 'GPS-BL-PVSM-01', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 8192, 'vm': 'vm-22950', 'name': 'GPS-BL-PVSM-02', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 8192, 'vm': 'vm-22951', 'name': 'GPS-BL-PVCPM-01', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 4096, 'vm': 'vm-23161', 'name': 'test wsus', 'power_state': 'POWERED_ON', 'cpu_count': 1 }, { 'memory_size_MiB': 4096, 'vm': 'vm-23216', 'name': 'GPS-MNGT-AD-01', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 4096, 'vm': 'vm-23541', 'name': 'GPS-BL-ADM-01', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 4096, 'vm': 'vm-23545', 'name': 'GPS-BL-4344', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 4096, 'vm': 'vm-23547', 'name': 'GPS-BL-4244', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 12288, 'vm': 'vm-23670', 'name': 'new_GPS-STRONGHOLD-APP', 'power_state': 'POWERED_ON', 'cpu_count': 8 }, {
+            'memory_size_MiB': 65536,
+            'vm': 'vm-23672',
+            'name': 'new_GPS-STRONGHOLD-DB',
+            'power_state': 'POWERED_ON',
+            'cpu_count': 12
+        },
+        {
+            'memory_size_MiB': 16384,
+            'vm': 'vm-24462',
+            'name': '2019-Q2_GPS-BL-4148',
+            'power_state': 'POWERED_ON',
+            'cpu_count': 8
+        },
+        {
+            'memory_size_MiB': 8192,
+            'vm': 'vm-24464',
+            'name': 'GPS-XCi-001',
+            'power_state': 'POWERED_ON',
+            'cpu_count': 2
+        }, { 'memory_size_MiB': 32768, 'vm': 'vm-24465', 'name': '2019-Q2_GPS-BL-4448', 'power_state': 'POWERED_ON', 'cpu_count': 8 }, { 'memory_size_MiB': 65536, 'vm': 'vm-24467', 'name': '2019-Q2_GPS-BL-4248', 'power_state': 'POWERED_ON', 'cpu_count': 8 }, { 'memory_size_MiB': 8192, 'vm': 'vm-24567', 'name': 'GPS-BLH-AD01', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 8192, 'vm': 'vm-24568', 'name': 'GPS-BLH-AD02', 'power_state': 'POWERED_ON', 'cpu_count': 4 }, { 'memory_size_MiB': 4096, 'vm': 'vm-24570', 'name': 'GPS-BLH-PRINTSERVER01', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 8192, 'vm': 'vm-24647', 'name': 'GPS-BLH-ADFS', 'power_state': 'POWERED_ON', 'cpu_count': 4 }, { 'memory_size_MiB': 8192, 'vm': 'vm-24648', 'name': 'GPS-BL-WAP', 'power_state': 'POWERED_ON', 'cpu_count': 4 }, { 'memory_size_MiB': 4096, 'vm': 'vm-24720', 'name': 'GPS-BL-CLWitnes', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 8192, 'vm': 'vm-24917', 'name': 'GPS-BL-4548', 'power_state': 'POWERED_ON', 'cpu_count': 8 }, { 'memory_size_MiB': 8192, 'vm': 'vm-24954', 'name': 'GPS-BL-SOLWind', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 4096, 'vm': 'vm-24956', 'name': 'Test', 'power_state': 'POWERED_ON', 'cpu_count': 2 },
+        {
+            'memory_size_MiB': 4096,
+            'vm': 'vm-24960',
+            'name': 'GPS-BLH-AADC',
+            'power_state': 'POWERED_ON',
+            'cpu_count': 4
+        }, { 'memory_size_MiB': 4096, 'vm': 'vm-25130', 'name': 'WIN-2016-TMPL', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 4096, 'vm': 'vm-25206', 'name': 'GPS-BL-9196', 'power_state': 'POWERED_ON', 'cpu_count': 1 }, { 'memory_size_MiB': 4096, 'vm': 'vm-25210', 'name': 'GPS-BLH-PTA1', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 225280, 'vm': 'vm-253', 'name': 'GPS-BL-4046', 'power_state': 'POWERED_ON', 'cpu_count': 12 }, {
+            'memory_size_MiB': 8192,
+            'vm': 'vm-25428',
+            'name': 'GPS-BL-CLR-01',
+            'power_state': 'POWERED_ON',
+            'cpu_count': 4
+        },
+        { 'memory_size_MiB': 8192, 'vm': 'vm-261', 'name': 'Test20', 'power_state': 'POWERED_OFF', 'cpu_count': 1 }, { 'memory_size_MiB': 62464, 'vm': 'vm-262', 'name': 'GPS-BL-APDES01', 'power_state': 'POWERED_ON', 'cpu_count': 8 }, { 'memory_size_MiB': 8192, 'vm': 'vm-264', 'name': 'Test23', 'power_state': 'POWERED_OFF', 'cpu_count': 1 }, { 'memory_size_MiB': 49152, 'vm': 'vm-266', 'name': 'GPS-BL-APDCTL01', 'power_state': 'POWERED_ON', 'cpu_count': 12 }, { 'memory_size_MiB': 4096, 'vm': 'vm-271', 'name': 'GPS-BL-APDPXY01', 'power_state': 'POWERED_ON', 'cpu_count': 2 }, { 'memory_size_MiB': 4096, 'vm': 'vm-279', 'name': 'TMPL-WIN2012R2', 'power_state': 'POWERED_OFF', 'cpu_count': 1 }, { 'memory_size_MiB': 8192, 'vm': 'vm-3982', 'name': 'syslog-new-clone', 'power_state': 'POWERED_OFF', 'cpu_count': 8 }, { 'memory_size_MiB': 65536, 'vm': 'vm-562', 'name': 'GPS-BL-4348', 'power_state': 'POWERED_ON', 'cpu_count': 8 }, { 'memory_size_MiB': 61440, 'vm': 'vm-5758', 'name': 'GPS-BL-7795(DistributionDB)', 'power_state': 'POWERED_ON', 'cpu_count': 8 }, { 'memory_size_MiB': 61440, 'vm': 'vm-5759', 'name': 'GPS-BL-7796(DistributionDB)', 'power_state': 'POWERED_ON', 'cpu_count': 8 }, {
+            'memory_size_MiB': 4096,
+            'vm': 'vm-8323',
+            'name': 'GPS-BL-APDMGMT01',
+            'power_state': 'POWERED_ON',
+            'cpu_count': 4
+        }
+    ]
+}
