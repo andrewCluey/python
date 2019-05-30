@@ -5,8 +5,8 @@ import json
 import urllib3
 import getpass
 
-api_url = 'https://192.168.10.45/rest'
-api_user = 'aclure@gps-bl-rm-ad01.local'
+api_url = 'https://IP_HostnameOfVCSA/rest'
+api_user = 'username'
 api_pass = getpass.getpass(prompt='Enter your password')
 
 def auth_vcenter(username,password):

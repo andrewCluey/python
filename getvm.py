@@ -5,8 +5,8 @@ import json
 import urllib3
 import getpass
 
-api_url = 'https://192.168.10.45/rest'
-api_user = 'aclure@gps-bl-rm-ad01.local'
+api_url = 'https://ip/hostofVCSA/rest'
+api_user = 'username@vsphere.local'
 api_pass = getpass.getpass(prompt='Enter your password:')
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
