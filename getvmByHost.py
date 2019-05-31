@@ -6,9 +6,10 @@ import urllib3
 import getpass
 
 api_url = 'https://VCSA-IP/rest'
-api_user = 'ac@vsphere.local'
+api_user = 'ac@.vspherelocal'
 api_pass = getpass.getpass(prompt='Enter your password:')
-find_vm = "VMNAME"
+hostname = "HOST-IP"
+
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 def auth_vcenter(username,password):
@@ -19,6 +20,7 @@ def auth_vcenter(username,password):
         return
     return resp.json()['value']
 
+# connect to vCenter, authenticate and 'GET' whatever is defined in URL argument (URL is set from other functions)
 def get_api_data(req_url):
     sid = auth_vcenter(api_user,api_pass)
     print('Requesting Page: {}'.format(req_url))
@@ -28,19 +30,26 @@ def get_api_data(req_url):
         return
     return resp
 
-def getvm():
-    resp = get_api_data(f'{api_url}/vcenter/vm/vm-15628/guest/identity') # URL, lookup using https://VCSA/apiexplorer/
+# get list of all VMs filtered by host. prints to screen and to 'vms.json' file.
+def getvm(hostid):
+    resp = get_api_data(f'{api_url}/vcenter/vm?filter.hosts={hostid}') # URL, lookup using https://VCSA/apiexplorer/
     j = resp.json()
-    data = json.dumps(j, indent=4)
+    data = json.dumps(j)
     print(data)
     with open("vms.json", "w") as write_file:
         json.dump(j, write_file)
     
-    #datastore = 'VMs: {j} [VM]'
-    #print(datastore['VMs']['VM'])
+# get the specified hosts 'id'
+def get_vmbyHost():
+    resp = get_api_data(f'{api_url}/vcenter/host?filter.names={hostname}')
+    jhosts = resp.json()
+    y = jhosts['value']
+    hostid = y[0]['host']
+    print(f'ID of host is {hostid}')
+    getvm(hostid)
 
 def main():
-    getvm()
+    get_vmbyHost()
 
 main()
 
